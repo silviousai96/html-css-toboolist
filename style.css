@@ -13,7 +13,7 @@ body {
 /* header */
  header{
     background-color: white;
-    height: 80px;
+     /*meglio non usare altezza ma padding per gli spazi tra contenuti */
  }
 
  .titolo{
@@ -43,7 +43,7 @@ main{
     padding-left: 40px;
     padding-top: 20px;
 }
-link{
+.link{
     border-radius: 5px;
     padding: 7px;
     text-decoration: none;
@@ -51,18 +51,12 @@ link{
 .primo-link{
     background-color: #45abea;   
     color: white;
-    border-radius: 5px;
-    padding: 7px;
-    text-decoration: none;
     margin: 20px auto;
     border: 1px solid #45abea;
 }
 .secondo-link{
     background-color: white;
     color: grey;
-    border-radius: 5px;
-    padding: 7px;
-    text-decoration: none;
     border: 1px solid grey;
 }
 
